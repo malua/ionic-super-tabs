@@ -7,7 +7,8 @@
     "prebuild": "npm run clean",
     "test": "ng test",
     "clean": "rm -rf dist",
-    "postinstall": "npm install && npm run build"
+    "prepare": "npm install",
+    "postinstall": "npm run build"
   },
   "author": "Zyra Media Inc. <info@zyra.ca>",
   "license": "MIT",
